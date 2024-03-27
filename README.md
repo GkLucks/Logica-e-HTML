@@ -19,4 +19,4 @@ Por enquanto é uma forma de apresentar os projetos desenvolvidos após aulas de
   # Autor
 
 | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/50891526?v=4" width=115><br><sub>Lucas Rodrigues Silva</sub>](https://github.com/GkLucks) |
-| :---: | :---: | :---: |
+
