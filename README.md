@@ -1,5 +1,8 @@
 # Aprendizados com Lógica de programação e HTML
 
+![photo-1551033406-611cf9a28f67](https://github.com/GkLucks/Logica-e-HTML/assets/50891526/7ab22366-4892-49d4-9745-462170a2e205)
+
+
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
 <h1>Descrição: </h1>
