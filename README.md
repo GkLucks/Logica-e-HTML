@@ -1,3 +1,3 @@
 # Aprendizados com Lógica de programação e HTML
 
-![uma capa com texto estilizado](https://github.com/GkLucks/Logica-e-HTML/assets/50891526/cadcf439-16ef-4583-8db3-c2a21bc30996 )
+[Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
