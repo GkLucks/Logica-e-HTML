@@ -12,11 +12,12 @@ Por enquanto é uma forma de apresentar os projetos desenvolvidos após aulas de
 
 - `Advinha ` `Um pequeno jogo de advinhação em JavaScript`: Testando a lógica de gerar número aleatórios usando Math.round.
 - `Advinha mais` `Uma atualização do jogo anterior`: Poderia entrar como versionamento, mas como foram aulas diferentes e diferentes objetivos é como se fosse outro jogo mais robusto.
+- `Pincel` `Creeper` `Esquadro` : Desenhos usando a Api Canvas de JavaScript
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
 - ``Lógica de programação``
-- ``JavaScript``
+- ``JavaScript`` ``API Canvas``
 - ``HTML``
 
   # Autor
