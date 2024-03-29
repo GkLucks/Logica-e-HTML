@@ -6,12 +6,14 @@
 
     pincel.fillStyle = 'grey';
     pincel.fillRect(0,0,600,400);
+    var cores = ['blue','red','green'];
+    var indiceCorAtual =0;
 
     function exibeAlerta(evento) {
 
         var x = evento.pageX - tela.offsetLeft;
         var y = evento.pageY - tela.offsetTop;
-        pincel.fillStyle = 'blue';
+        pincel.fillStyle = cores[indiceCorAtual];
         pincel.beginPath();
         pincel.arc(x,y,10,0,2*3.14);
         pincel.fill();
@@ -21,14 +23,15 @@
 
     tela.onclick = exibeAlerta;
 
+    function mudaCor() {
+        indiceCorAtual++;
+        if (indiceCorAtual >= cores.length) {
+            indiceCorAtual =0; //Volta para o azul
+        }
+        return false;
+    }
 
-
-
-
-
-
-
-
+    tela.oncontextmenu = mudaCor;
 
 
 
