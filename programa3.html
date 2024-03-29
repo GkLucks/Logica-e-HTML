@@ -8,14 +8,22 @@
     pincel.fillRect(0,0,600,400);
     var cores = ['blue','red','green'];
     var indiceCorAtual =0;
+    var tamanho = 10;
 
     function exibeAlerta(evento) {
 
         var x = evento.pageX - tela.offsetLeft;
         var y = evento.pageY - tela.offsetTop;
+
+        if(evento.shiftKey == true) {
+            tamanho = 20;
+        }else {
+            tamanho = 10;
+        }
+
         pincel.fillStyle = cores[indiceCorAtual];
         pincel.beginPath();
-        pincel.arc(x,y,10,0,2*3.14);
+        pincel.arc(x,y,tamanho,0,2*3.14);
         pincel.fill();
         console.log(x + ',' + y);
 
